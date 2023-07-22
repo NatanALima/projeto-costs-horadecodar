@@ -6,6 +6,9 @@ export default function Select({text, name, options, handleOnChange, value}) {
             <label htmlFor={name}>{text}:</label>
             <select name={name} id={name} defaultValue={"default"}>
                 <option value="default" disabled>Selecione uma opção</option>
+                {options.map(categ => (
+                    <option key={categ.id} value={categ.name}>{categ.name}</option>
+                ))}
             </select>
         </div>
     )
