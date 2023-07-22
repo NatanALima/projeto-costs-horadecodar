@@ -10,6 +10,7 @@ export default function Input({type, text, name, placeholder, handleOnChange, va
                    placeholder={placeholder} 
                    onChange={handleOnChange} 
                    value={value}
+                   autoComplete='off'
             />
         </div>
     )
