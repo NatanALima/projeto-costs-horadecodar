@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em 4em;
+
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list li {
+    margin-right: 1em;
+
+}
+
+.list li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.list li a:hover {
+    color: #fb3;
+}

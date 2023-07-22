@@ -1,0 +1,33 @@
+footer {
+    background-color: #222;
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer ul li {
+    margin: 0 0.65em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    color: #fb3;
+}
+
+footer .copy_right {
+    margin-top: 2em;
+
+}
+
+footer .copy_right span {
+    font-weight: bold;
+    color: #fb3;
+}
