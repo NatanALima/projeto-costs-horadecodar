@@ -15,7 +15,7 @@ export default function Projects() {
     return(
         <div>
             <h1>Meus Projetos</h1>
-            <Message msg={"message"} type={"sucess"}/>
+            {message && <Message msg={message} type={"sucess"}/>}
         </div>
         
     )
