@@ -7,13 +7,15 @@ export default function Projects() {
     let message = "";
     if(location.state) {
         message = location.state.message;
+        //Impede que, ao recarregar a página, a mensagem seja exibida;
+        window.history.replaceState({}, document.title);
 
     }
 
     return(
         <div>
             <h1>Meus Projetos</h1>
-            {message && <Message msg={message} type={"sucess"}/>}
+            <Message msg={"message"} type={"sucess"}/>
         </div>
         
     )
